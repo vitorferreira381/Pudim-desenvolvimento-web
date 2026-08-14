@@ -6,8 +6,14 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5e6c8;
+    background-color: #d8c4a8;
     color: #3f2a1d;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    background-color: #f5e6c8;
 }
 
 header {
@@ -39,11 +45,6 @@ nav button {
 
 nav button:hover {
     background-color: #f0c27b;
-}
-
-main {
-    width: 80%;
-    margin: auto;
 }
 
 section {
@@ -130,12 +131,15 @@ section {
 .contato {
     text-align: center;
 }
+
 .bloco-contato {
     background-color: white;
     padding: 40px;
     border-radius: 10px;
     font-size: 18px;
     line-height: 1.8;
+    width: 100%;
+    margin: auto;
 }
 
 .email,
