@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+
+<head>
+    <title>Pudim</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">PUDIM</div>
+
+        <nav>
+            <button onclick="irPara('inicio')">Início</button>
+            <button onclick="irPara('historia')">História</button>
+            <button onclick="irPara('tipos')">Tipos</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio" class="inicio">
+            <div class="texto-inicio">
+                <h1>O delicioso Pudim</h1>
+
+                <p>
+                    O pudim é uma das sobremesas mais conhecidas, tradicionais e apreciadas
+                    por pessoas de diferentes idades. Com sua textura cremosa, sabor suave
+                    e uma deliciosa calda de caramelo, essa sobremesa está presente em
+                    diversos momentos especiais, como almoços em família, festas,
+                    comemorações e reuniões entre amigos.
+                </p>
+                <p>
+                    No Brasil, o pudim de leite condensado se tornou uma das versões mais
+                    populares da receita. Seu preparo é relativamente simples, utilizando
+                    ingredientes comuns como leite condensado, leite e ovos. Mesmo sendo
+                    uma sobremesa tradicional, existem diversas formas de prepará-lo,
+                    criando sabores e combinações diferentes.
+                </p>
+            </div>
+
+            <div class="imagem">
+                <img src="pudim.jpg" alt="Pudim">
+            </div>
+        </section>
+
+        <section id="historia" class="historia">
+            <h2>A história do pudim</h2>
+
+            <div class="bloco-historia">
+                <p>
+                    A história do pudim está relacionada à evolução das sobremesas
+                    preparadas com ingredientes como leite, ovos e açúcar. Ao longo dos
+                    séculos, diferentes povos desenvolveram receitas semelhantes, criando
+                    versões próprias de acordo com os ingredientes disponíveis em cada
+                    região e com os costumes de suas culturas.
+                </p>
+                <p>
+                    Com o passar do tempo, o pudim ganhou diversas variações e se tornou
+                    popular em diferentes países. Algumas receitas possuem uma consistência
+                    mais firme, enquanto outras são mais cremosas. Também existem versões
+                    preparadas com frutas, chocolate, coco, baunilha e outros ingredientes.
+                </p>
+
+                <p>
+                    No Brasil, uma das versões mais conhecidas é o pudim de leite
+                    condensado. Essa receita conquistou espaço na culinária brasileira por
+                    seu sabor marcante e pela combinação entre o creme suave e a calda de
+                    caramelo. Atualmente, o pudim é considerado uma sobremesa tradicional
+                    e continua sendo preparado em casas, restaurantes e eventos em todo o
+                    país.
+                </p>
+            </div>
+        </section>
+
+        <section id="tipos" class="tipos">
+            <h2>Tipos de Pudim</h2>
+
+            <div class="tipo">
+                <img src="pudimleite.jpg" alt="Pudim de leite">
+
+                <div>
+                    <h3>Pudim de Leite</h3>
+                    <p>
+                        O pudim de leite é a versão mais tradicional e conhecida no Brasil.
+                        Geralmente é preparado com leite condensado, leite e ovos, sendo
+                        assado em banho-maria para alcançar sua textura cremosa e uniforme.
+                        Sua principal característica é a calda de caramelo, que dá à
+                        sobremesa um sabor doce e marcante.
+                    </p>
+                </div>
+            </div>
+
+            <div class="tipo">
+                <img src="pudimchoco.jpg" alt="Pudim de chocolate">
+
+                <div>
+                    <h3>Pudim de Chocolate</h3>
+                    <p>
+                        O pudim de chocolate é uma excelente opção para os amantes desse
+                        ingrediente. Ele combina a textura cremosa tradicional do pudim
+                        com o sabor intenso do chocolate, podendo ser preparado com
+                        chocolate em pó, cacau ou chocolate derretido. É uma alternativa
+                        moderna e muito apreciada como sobremesa em diferentes ocasiões.
+                    </p>
+                </div>
+            </div>
+
+            <div class="tipo">
+                <img src="pudimcoco.jpg" alt="Pudim de coco">
+
+                <div>
+                    <h3>Pudim de Coco</h3>
+                    <p>
+                        O pudim de coco possui um sabor mais tropical e uma combinação
+                        especial entre a cremosidade da sobremesa e o aroma característico
+                        do coco. Dependendo da receita, pode ser preparado com leite de
+                        coco e coco ralado, deixando a sobremesa ainda mais saborosa.
+                        É uma ótima opção para quem deseja experimentar uma variação
+                        diferente do pudim tradicional.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contato">
+            <h2>Entre em contato</h2>
+
+            <p>
+                Para mais informações, envie um e-mail:
+            </p>
+
+            <a class="email" href="mailto:pudim@pudim.com.br">
+                pudim@pudim.com.br
+            </a>
+
+            <br><br>
+
+            <a class="whatsapp" href="https://wa.me/?text=Conheça%20esta%20página%20sobre%20pudim!" target="_blank">
+                Compartilhar no WhatsApp
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="imagem-footer">
+            <img src="ucb.png">
+        </div>
+
+        <p>Desenvolvido por: João Vítor Ferreira Calado</p>
+        <p>Imagens retiradas de:<a href="https://www.magnific.com/app">magnific.com</a></p>
+    </footer>
+
+    <script>
+        function irPara(secao) {
+            document.getElementById(secao).scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+    </script>
+
+</body>
+
+</html>
