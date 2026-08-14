@@ -130,11 +130,18 @@ section {
 .contato {
     text-align: center;
 }
+.bloco-contato {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 1.8;
+}
 
 .email,
 .whatsapp {
     display: inline-block;
-    background-color: #5b2c6f;
+    background-color: #811216;
     color: white;
     padding: 12px 20px;
     border-radius: 5px;
@@ -142,7 +149,7 @@ section {
 }
 
 .whatsapp {
-    background-color: #7d4c8e;
+    background-color: #239f36;
 }
 
 footer {
@@ -155,11 +162,16 @@ footer {
 .imagem-footer {
     width: 300px;
     height: 80px;
-    background-color: white;
     color: #5b2c6f;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+}
+
+.imagem-footer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
